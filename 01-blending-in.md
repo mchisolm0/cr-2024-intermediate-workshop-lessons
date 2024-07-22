@@ -173,7 +173,7 @@ export const colors = {
 } as const;
 ```
 
-Spacing is a first class citizen in Ignite - `src/thee/spacing.ts` has a set of values so your padding, margin and gap values can all be consistent throughout the application. We can consider these values part of the theme like we do colors, this way if you did want separate spacing for a particular theme, you can achieve that.
+Spacing is a first class citizen in Ignite - `src/theme/spacing.ts` has a set of values so your padding, margin and gap values can all be consistent throughout the application. We can consider these values part of the theme like we do colors, this way if you did want separate spacing for a particular theme, you can achieve that.
 
 Create `src/theme/spacingDark.ts` with the following values (again, feel free to mimic the same values as light mode or come up with your own dark mode spacing values):
 

@@ -347,7 +347,7 @@ export const ThemeContext = createContext<ThemeContextType>({
 });
 ```
 
-2. Create the `useThemeProvider` hook. This will be used in one of our more top level `_layout.tsx` files just like any other provider with some type of global state.
+2. Create the `useThemeProvider` hook in the `src/utils` directory. This will be used in one of our more top level `_layout.tsx` files just like any other provider with some type of global state.
 
 This way the entire application will have access to the current theme value stored in the context.
 
